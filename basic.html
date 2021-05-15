@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="C:\xampp\htdocs\CMS\css\style.css">
+    </head>
+    <body>
+        <div style="height: 6px; background: lightblue;"></div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container" style="background:lavender">
+                <a href="#" class="nav-brand">Omkar</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav mr-auto">
+                    <li class="nav-item"><a href="myProfile.php" class="nav-link"><i class="fas fa-user"></i> My Profile</a></li>            
+                    <li class="nav-item"><a href="dashboard.php" class="nav-link">Dashboard</a></li>
+                    <li class="nav-item"><a href="post.php" class="nav-link">Post</a></li>
+                    <li class="nav-item"><a href="categories.php" class="nav-link">Categories</a></li>
+                    <li class="nav-item"><a href="admins.php" class="nav-link">Manage Admins</a></li>
+                    <li class="nav-item"><a href="comments.php" class="nav-link">Comments</a></li>
+                    <li class="nav-item"><a href="blog.php" class="nav-link">Live Blog</a></li>
+                </ul>
+                <ul class="nav ml-auto">
+                    <li class="nav-item"><a href="logout.php" class="nav-link">Logout <i class="fas fa-sign-out-alt"></i></a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div style="height: 7px; background: lightblue;"></div>
+
+        <header class="bg-dark text-white py-3">
+            <div class="cointainer">
+                <div class="row">
+                    <div class="col-md-12">
+                      <h1 style="padding-left: 50px;"><i class="fas fa-blog"></i>Blog Posts</h1>
+                   </div>
+                </div>
+            </div>
+        </header>
+        <section class="container py-2 mb-4">
+            <div class="row" style="min-height:50px; background:red">
+                <div class="col-lg-10" style="min-height:50px; background:yellow"></div>
+            </div> 
+
+        </section>
+
+        <footer class="bg-dark text-white">
+            <div class="cointainer">
+                    <p class="lead text-center">Design by Omkar Raut <span id="year"></span></p>
+            </div>
+            <div style="height: 7px; background: lightblue;"></div>
+        </footer>
+        
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script>
+    $('#year').text(new Date().getFullYear());
+</script>    
+</body>
+</html>
